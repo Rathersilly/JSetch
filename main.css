@@ -3,24 +3,27 @@
 	padding: 0;
 	margin: 0;
 }
-html, body 
-{
-    height:100%;
+
+body {
+	background-color: #333;
+	
+	
 }
 header {
-	position: fixed;
-	height: 20px;
-	width: 100%;
-	background-color: orange;
+	
+	height: 50px;
+	width: 512px;
+	margin:auto;
+	margin-top:50px;
+	margin-bottom:50px;
+	background-color: blue;
 	z-index: 1;
+	text-align:center;
 }
-#titlediv {
-	width: 50%;
-	margin: auto;
-	text-align: center;	
-}
-p {
-	display: inline-block;
+h1 {
+	line-height: 50px;
+	color:#FFFFFF;
+
 }
 #resetbutton {
 	display: inline-block;
@@ -28,34 +31,35 @@ p {
 }
 
 .grid {
-	position: absolute;
-	top: 20px;
 	
-	background-color: transparent;
-	width:100%;
-	bottom: 0px;
-	height: auto;
-
+	
+	margin:auto;
+	
+	
+	width:512px;
+	height: 512px;
+	
+	
+	
+	
 	
 }
 .row {
-	display: block;
-	background-color: transparent;
-	border: 0;
-	padding: 0;
-	margin: 0;
-	height: 100px;
+	
+
+	
+	
 
 }
 
 .cell {
 	
-	border: 1px solid black;
+	
 	z-index: 1;
 	display: inline-block;
 	
 	padding: 0;
 	margin: 0;
-	height: 100%;
+	
 
 }
