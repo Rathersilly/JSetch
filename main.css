@@ -1,0 +1,60 @@
+* {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+html, body 
+{
+    height:100%;
+}
+header {
+	position: fixed;
+	height: 20px;
+	width: 100%;
+	background-color: orange;
+	z-index: 1;
+}
+#titlediv {
+	width: 50%;
+	margin: auto;
+	text-align: center;	
+}
+p {
+	display: inline-block;
+}
+#resetbutton {
+	display: inline-block;
+}
+
+.grid {
+	position: absolute;
+	top: 20px;
+	
+	background-color: transparent;
+	width:100%;
+	bottom: 0px;
+	height: auto;
+
+	
+}
+.row {
+	display: block;
+	background-color: transparent;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	height: 100px;
+
+}
+
+.cell {
+	
+	border: 1px solid black;
+	z-index: 1;
+	display: inline-block;
+	
+	padding: 0;
+	margin: 0;
+	height: 100%;
+
+}
