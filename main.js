@@ -1,9 +1,9 @@
 $(document).ready(function(){
 	//square width = 100%/#squares
 	console.log("hi");
-	var tempoffset = 2;
-	var gridrows = 12;
-	var gridcols = 12;
+	var tempoffset = 0;
+	var gridrows = 20;
+	var gridcols = 20;
 	var gridwidth = 100  / gridcols - tempoffset;
 	var gridheight = 100 / gridrows - tempoffset;
 	var red = 0; var green = 100; var blue = 100;
@@ -34,6 +34,13 @@ $(document).ready(function(){
 	};
 	$(".cell").hover(function(){
 		$(this).css("background-color", hovercolor);
+	});
+
+	$("#resetbutton").click(function(){
+		$(".cell").css("background-color", cellcolor);
+
+
+
 	});
 
 
